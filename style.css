@@ -10,7 +10,9 @@
    justify-content: space-between;
    background-color:#1F2947;
    padding: 20px;
-   outline: solid 4px rgb(210, 210, 210);
+   outline: solid 4px rgb(0, 255, 115);
+   padding-left: 80px;
+   padding-right: 100px;
  }
  
 .logo {
@@ -32,17 +34,15 @@
  
 .header-container{
    outline: solid 3px rgb(250, 88, 7); 
- 
+
    background-color:#1F2947; 
    display: flex;
    padding: 100px;
- 
+   gap: 50px ;
 
    
 }
-.awesome {
- 
-   
+.awesome { 
    font-size: 48px;
    font-weight:bolder;
    color: rgb(255, 255, 255);
@@ -51,23 +51,26 @@
    font-weight: 700;
    margin-bottom: 8px;
  }
- 
-.paragraph {
- 
-   color: #ffffff;
-}
+
 .button1 {
    outline: solid 3px;
    height: 30px;
    width: 80px; 
 }
 .image { 
-   background-color: #032fb5; 
-   display: flex;
-   flex-direction: column;
+  
    box-shadow: 2px 4px 16px rgba(255, 0, 0, 0.2);
 }
  
+ 
+.text {
+ color: aliceblue;
+ margin-bottom: 50px;
+}
+ .container1 {
+   outline: solid 4px rgb(0, 255, 115);
+ 
+ }
 
  
  

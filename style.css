@@ -1,8 +1,6 @@
  
  .body{
- display: flex;
- flex-direction: column;
- height: 100%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
  
  }
  .header{
@@ -10,24 +8,22 @@
    justify-content: space-between;
    background-color:#1F2947;
    padding: 20px;
-   
    padding-left: 80px;
    padding-right: 100px;
  }
  
-.logo {
-   
+.logo { 
    display: flex;
-  font-size: 30px; 
-  padding-left: 40px;
+  font-size: 60px; 
+  padding-left: 150px;
   color:aliceblue;
-  font-weight: 700;
+  font-weight: 900;
 }
 .link-container{
    display: flex; 
    align-items: center;
    padding-right: 10px;
- 
+   font-size: larger;
 }
 
 /* container for this section */
@@ -43,16 +39,16 @@
   
 }
 .container1 {
-   outline: solid 3px rgb(51, 123, 238); 
+   
+   margin-left: 110px;
 }
 .awesome { 
-   font-size: 48px;
+   font-size: 50px;
    font-weight:bolder;
    color: rgb(255, 255, 255); 
-   font-size: 28px;
-   font-weight: 700;
-    
-   width: 200px
+   margin-top: 80px;
+   font-weight: 700; 
+   width: 400px
  }
  
 .image {  
@@ -73,15 +69,14 @@ button {
    background-color: #1F2947;
    color: aliceblue;
    margin-top: 10px;
+   border: thick double aqua;
 }
  
 ul {
-   list-style-type: none;
-   
+  list-style: none;
 }
 a {
-   text-decoration: none;
-   list-style-image: none;
+  list-style-image: none;
    color: aliceblue;
 }
  
@@ -148,8 +143,11 @@ a {
 .quote-mini-text{
    font-weight: bolder;
    font-size: larger;
+   flex: 1;
    display: flex;
-   align-items: flex-end;
+   flex-direction: column;
+   align-items: end;
+   padding-top: 20px;
 }
 
 .quote {
@@ -160,31 +158,36 @@ a {
 /* blue- container */
 
 .box {
-   display: flex;
+   display: flex; 
+   height: 300px; 
+   align-items: center; 
    justify-content: center;
-   height: 500px;
-   align-items: center;
+   border-radius: 20px; 
+   border: thick double aqua;
 }
  
  
 .blue-container {
-   display: flex;
-  
-   background-color: #3882F6;
-   border-radius: 20px;
-  padding: 80px;
+  display: flex;
+  background-color: #3882F6; 
+  padding:48px; 
+  border-radius: 30px;
+  gap: 50px;
+  justify-content: center;
+  border: thick double rgb(21, 255, 255); 
 }
 .blue-text1{
    font-weight: bolder;
    color: #E5E7EB;
    font-size: larger;
-
+  
 }
 .blue-text{
    color: white;
    font-weight:500;
+ 
 }
-
+ 
 
 .footer {
    background-color: #1F2947;
@@ -193,4 +196,5 @@ a {
    align-items: center;
    justify-content: center;
    color: #E5E7EB;
+   border: thick double aqua;
 }

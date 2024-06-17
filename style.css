@@ -5,11 +5,13 @@
  }
  .header{
    display: flex;
+ 
    justify-content: space-between;
    background-color:#1F2947;
    padding: 20px;
    padding-left: 80px;
    padding-right: 100px;
+    
  }
  
 .logo { 
@@ -19,13 +21,19 @@
   color:aliceblue;
   font-weight: 900;
 }
-.link-container{
-   display: flex; 
-   align-items: center;
-   padding-right: 10px;
-   font-size: larger;
-}
 
+ 
+.link-container{
+ display: flex;
+ flex-direction: row;
+ 
+}
+.links {
+   display: flex; 
+   flex-direction: row;
+   font-size: larger;
+   gap: 10px;
+}
 /* container for this section */
  
 .header-container{ 
@@ -35,11 +43,11 @@
    height: 500px;
    gap: 80px;
    padding-left: 120px ;
- 
+  
   
 }
 .container1 {
-   
+    
    margin-left: 110px;
 }
 .awesome { 
@@ -78,6 +86,7 @@ ul {
 a {
   list-style-image: none;
    color: aliceblue;
+   text-decoration: none;
 }
  
 
@@ -85,7 +94,7 @@ a {
 /* section for content section */
  
 .title {
-   font-size: 36px;
+   font-size: 50px;
    font-weight: bolder;
    display: flex;
    align-items: center;
@@ -100,22 +109,30 @@ a {
    align-items: center;
    justify-content: center;
    height:500px ;
+   gap: 50px;
+   text-align: center;
+   flex-wrap: wrap;
   
 }
 .img {
-   display: flex;  
-   box-shadow: 2px 4px 16px rgba(255, 0, 0, 0.2);
-   flex-direction: column;
-   border: thick double aqua;
-   padding: 1px;
-}
 
-.img-txt {
- 
+   box-shadow: 2px 4px 16px rgba(255, 0, 0, 0.2);
+   
+   border: thick double aqua;
+   
 }
+.img-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 120px;
+   
+}
+   
+ 
 
 .text-container {
-     
+    
    width: 200px;
 }
 
@@ -138,7 +155,7 @@ a {
     width: 790px;
    padding: 20px; 
    flex-wrap: wrap;
-
+  
 }
 .quote-mini-text{
    font-weight: bolder;
@@ -153,6 +170,7 @@ a {
 .quote {
    font-size: 36px;
    font-style:italic;
+  
 }
 
 /* blue- container */
@@ -160,21 +178,24 @@ a {
 .box {
    display: flex; 
    height: 300px; 
-   align-items: center; 
-   justify-content: center;
+   align-items: center;  
    border-radius: 20px; 
-   border: thick double aqua;
+ 
+   margin: 48px;
+   padding-left: 400px;
+   padding-right: 400px;
 }
  
  
 .blue-container {
-  display: flex;
+  border: thick double rgb(21, 255, 255);
   background-color: #3882F6; 
-  padding:48px; 
   border-radius: 30px;
-  gap: 50px;
-  justify-content: center;
-  border: thick double rgb(21, 255, 255); 
+  display: flex; 
+  padding:68px;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
 }
 .blue-text1{
    font-weight: bolder;

@@ -1,14 +1,14 @@
  
  .body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
+   
+  height: 100%;
  }
  .header{
    display: flex;
- 
    justify-content: space-between;
    background-color:#1F2947;
-   padding: 20px;
+   padding: 40px;
    padding-left: 80px;
    padding-right: 100px;
     
@@ -22,17 +22,10 @@
   font-weight: 900;
 }
 
- 
-.link-container{
- display: flex;
- flex-direction: row;
- 
-}
 .links {
    display: flex; 
-   flex-direction: row;
    font-size: larger;
-   gap: 10px;
+   gap: 50px;
 }
 /* container for this section */
  
@@ -41,13 +34,14 @@
    background-color:#1F2947; 
    display: flex; 
    height: 500px;
-   gap: 80px;
+   gap: 100px;
    padding-left: 120px ;
   
   
 }
-.container1 {
-    
+ 
+  
+.container1 { 
    margin-left: 110px;
 }
 .awesome { 
@@ -56,7 +50,7 @@
    color: rgb(255, 255, 255); 
    margin-top: 80px;
    font-weight: 700; 
-   width: 400px
+   min-width: 400px
  }
  
 .image {  
@@ -78,6 +72,13 @@ button {
    color: aliceblue;
    margin-top: 10px;
    border: thick double aqua;
+}
+.c1 {
+   display: flex;
+   flex-shrink: 2;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 110px;
 }
  
 ul {
@@ -177,10 +178,9 @@ a {
 
 .box {
    display: flex; 
-   height: 300px; 
+   min-height: 300px; 
    align-items: center;  
-   border-radius: 20px; 
- 
+   border-radius: 20px;  
    margin: 48px;
    padding-left: 400px;
    padding-right: 400px;
@@ -195,7 +195,8 @@ a {
   padding:68px;  
   flex-wrap: wrap;
   justify-content: space-between;
-  flex: 1;
+  flex: 1 1 auto;
+  
 }
 .blue-text1{
    font-weight: bolder;
